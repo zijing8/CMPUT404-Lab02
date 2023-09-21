@@ -1,0 +1,16 @@
+Question 1: How do you specify a TCP socket in Python?
+socket.SOCK_STREAM
+
+Question 2: What is the difference between a client socket and a server socket in Python?
+The client initalize the connections and request, and the server listen and respond to it.
+
+Question 3: How do we instruct the OS to let us reuse the same bind port?
+s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
+
+Question 4: What information do we get about incoming connections?
+client IP and PORT
+
+Question 5: What is returned by recv() from the server after it is done sending the HTTP request?
+empty Python string
+
+Question 6: Provide a link to your code on GitHub.
